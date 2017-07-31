@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true">
+	<shape android:shape="rectangle">
+	  <corners
+		android:topLeftRadius="@dimen/login_button_radius"
+		android:topRightRadius="@dimen/login_button_radius"
+		android:bottomRightRadius="@dimen/login_button_radius"
+		android:bottomLeftRadius="@dimen/login_button_radius">
+	  </corners>
+	  <solid
+		  android:color="@color/color_login_buttonpress">
+	  </solid>
+	</shape>
+  </item>
+  <item>
+	<shape android:shape="rectangle">
+	  <corners
+		android:topLeftRadius="@dimen/login_button_radius"
+		android:topRightRadius="@dimen/login_button_radius"
+		android:bottomRightRadius="@dimen/login_button_radius"
+		android:bottomLeftRadius="@dimen/login_button_radius">
+	  </corners>
+	  <solid
+		android:color="@color/color_login_button">
+	  </solid>
+	</shape>
+  </item>
+</selector>
+

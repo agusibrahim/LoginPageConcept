@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">loginPage2</string>
+    <string name="app_name">LoginPageConcept</string>
     <string name="hello_world">Hello world!</string>
-
+	<string-array name="examples">
+        <item>Hi User</item>
+		<item>This is</item>
+        <item>Made by Agus Ibrahim</item>
+    </string-array>
 </resources>

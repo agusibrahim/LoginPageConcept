@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="color_login_button">#FF3366</color>
+	<color name="color_login_buttonpress">#EE3162</color>
+	<color name="color_signup_button">#F2F2F2</color>
+	<color name="color_signup_buttonpress">#EBEBEB</color>
+	<color name="color_primary_men">#00ACC1</color>
+	<color name="color_product_bottom">#ffffff</color>
+	<color name="color_edittext_hint">#999</color>
+	
+	<color name="color_edittext_label">#fff</color>
+</resources>

@@ -1,11 +1,83 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:agus="android.support.percent.PercentRelativeLayout"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+	<FrameLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/frag_container"/>
 
-</LinearLayout>
+	<RelativeLayout
+		android:background="@drawable/selector_login_button"
+		android:layout_height="@dimen/login_button_height"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		app:layout_marginTopPercent="75%"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/button_login">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="LOGIN"
+			android:layout_centerInParent="true"
+			android:padding="20dp"
+			android:textStyle="bold"
+			android:typeface="serif"
+			android:textColor="#FFFFFF"
+			android:id="@+id/button_label"/>
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@drawable/ic_plus"
+			android:layout_centerInParent="true"
+			android:id="@+id/button_icon"
+			android:alpha="0"/>
+
+		<ProgressBar
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:layout_centerInParent="true"
+			android:id="@+id/mainProgressBar1"
+			android:alpha="0"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		app:layout_marginTopPercent="75%"
+		android:layout_height="80dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:visibility="gone">
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="LOGIN"
+			android:layout_weight="1.0"
+			android:background="@drawable/button_login"
+			android:textColor="#FFFFFF"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		<Button
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="SIGN UP"
+			android:layout_weight="1.0"
+			android:background="@drawable/button_signup"
+			android:textColor="#0A0A0A"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	</LinearLayout>
+
+</android.support.percent.PercentRelativeLayout>
+

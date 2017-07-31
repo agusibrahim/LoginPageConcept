@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-res"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#EEEEEE">
+
+	<RelativeLayout
+		android:layout_height="500dp"
+		android:layout_width="match_parent">
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:src="@drawable/image_1"
+			android:scaleType="centerCrop"
+			android:id="@+id/fragmentdashboardImageView1"/>
+
+		<View
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:background="#0F0F0F"
+			android:alpha="0.4"/>
+
+		<ImageView
+			android:layout_height="30dp"
+			android:layout_width="30dp"
+			android:tint="#ffffff"
+			android:src="@drawable/ic_menu"
+			android:layout_marginLeft="10dp"
+			android:id="@+id/fragmentdashboardMenu2"
+			android:scaleType="fitXY"
+			android:layout_marginTop="10dp"/>
+
+		<ImageView
+			android:layout_height="30dp"
+			android:layout_width="30dp"
+			android:tint="#ffffff"
+			android:src="@drawable/ic_search"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="10dp"
+			android:id="@+id/fragmentdashboardMenu1"
+			android:scaleType="fitXY"
+			android:layout_marginTop="10dp"/>
+
+		<devs.mulham.horizontalcalendar.HorizontalCalendarView
+			android:id="@+id/calendarView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#66000000"
+			app:textColorSelected="#ff0000"
+			android:layout_alignParentBottom="true"/>
+
+		<ai.loginpage3.CircularImageView
+			android:layout_height="140dp"
+			android:layout_width="140dp"
+			android:scaleType="centerCrop"
+			android:src="@drawable/image_2"
+			android:layout_centerInParent="true"
+			android:id="@+id/fragmentdashboardPic"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:textSize="40sp"
+			android:textColor="#FFFFFF"
+			android:layout_marginTop="100dp"
+			android:text="Virra Adelia"
+			android:textStyle="bold"
+			android:typeface="serif"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:background="#FFFFFF"
+			android:gravity="left"
+			android:orientation="horizontal"
+			android:layout_marginBottom="1dp"
+			android:id="@+id/fragmentdashboardLinearLayout1"
+			android:alpha="0">
+
+			<ImageView
+				android:src="@drawable/list_0000"
+				android:layout_height="80dp"
+				android:layout_width="250dp"
+				android:scaleType="fitXY"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:background="#FFFFFF"
+			android:gravity="left"
+			android:orientation="horizontal"
+			android:layout_marginBottom="1dp"
+			android:id="@+id/fragmentdashboardLinearLayout2"
+			android:alpha="0">
+
+			<ImageView
+				android:src="@drawable/list_0001"
+				android:layout_height="80dp"
+				android:layout_width="290dp"
+				android:scaleType="fitXY"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:background="#FFFFFF"
+			android:gravity="left"
+			android:orientation="horizontal"
+			android:layout_marginBottom="1dp"
+			android:id="@+id/fragmentdashboardLinearLayout3"
+			android:alpha="0">
+
+			<ImageView
+				android:src="@drawable/list_0002"
+				android:layout_height="80dp"
+				android:layout_width="240dp"
+				android:scaleType="fitXY"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:background="#FFFFFF"
+			android:gravity="left"
+			android:orientation="horizontal"
+			android:layout_marginBottom="1dp"
+			android:id="@+id/fragmentdashboardLinearLayout4"
+			android:alpha="0">
+
+			<ImageView
+				android:src="@drawable/list_0000"
+				android:layout_height="80dp"
+				android:layout_width="250dp"
+				android:scaleType="fitXY"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

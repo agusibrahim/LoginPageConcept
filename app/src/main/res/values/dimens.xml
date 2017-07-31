@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="login_button_radius">30dp</dimen>
+	<dimen name="login_button_height">60dp</dimen>
+	<dimen name="login_button_width">300dp</dimen>
+	<dimen name="login_holder_height">25dp</dimen>
+	<dimen name="login_horizontalline_spacing">10dp</dimen>
+</resources>
