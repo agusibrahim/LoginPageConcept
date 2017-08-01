@@ -70,7 +70,9 @@
 			android:layout_marginTop="100dp"
 			android:text="Virra Adelia"
 			android:textStyle="bold"
-			android:typeface="serif"/>
+			android:typeface="serif"
+			android:id="@+id/fragmentdashboardUsername"
+			android:alpha="0"/>
 
 	</RelativeLayout>
 

@@ -22,7 +22,7 @@ public class DashboardFragment extends Fragment
 
 	private Calendar endDate,startDate;
 	private HorizontalCalendar horizontalCalendar;
-	private View bgheadr, profpic, ic_menu2,ic_menu1,lst1,lst2,lst3,lst4;
+	private View bgheadr, profpic, txtusername, ic_menu2,ic_menu1,lst1,lst2,lst3,lst4;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		endDate = Calendar.getInstance();
@@ -38,6 +38,7 @@ public class DashboardFragment extends Fragment
 		ic_menu1=v.findViewById(R.id.fragmentdashboardMenu1);
 		ic_menu2=v.findViewById(R.id.fragmentdashboardMenu2);
 		profpic=v.findViewById(R.id.fragmentdashboardPic);
+		txtusername=v.findViewById(R.id.fragmentdashboardUsername);
 		bgheadr=v.findViewById(R.id.fragmentdashboardImageView1);
 		lst1=v.findViewById(R.id.fragmentdashboardLinearLayout1);
 		lst2=v.findViewById(R.id.fragmentdashboardLinearLayout2);
@@ -76,6 +77,7 @@ public class DashboardFragment extends Fragment
 		resetanim(lst2);
 		resetanim(lst3);
 		resetanim(lst4);
+		txtusername.animate().setStartDelay(300).setDuration(2000).alpha(1).start();
 		profpic.animate().setStartDelay(0).setDuration(0).scaleX(0).scaleY(0).start();
 		profpic.animate().setStartDelay(500).setDuration(2000).setInterpolator(new OvershootInterpolator()).scaleX(1).scaleY(1).start();
 		lst1.animate().setStartDelay(0).setDuration(1000).translationY(0).alpha(1).scaleX(1).scaleY(1).start();
