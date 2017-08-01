@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity
 					}else if((int)button_login.getTag()==2){
 						button_login.animate().x(dm.widthPixels/2).y(dm.heightPixels/2).setInterpolator(new EasingInterpolator(Ease.CUBIC_IN)).setListener(null).setDuration(1000).setStartDelay(0).start();
 						button_login.animate().setStartDelay(600).setDuration(1000).scaleX(40).scaleY(40).setInterpolator(new EasingInterpolator(Ease.CUBIC_IN_OUT)).start();
-						button_icon.animate().alpha(0).setStartDelay(0).setDuration(800).start();
+						button_icon.animate().alpha(0).rotation(90).setStartDelay(0).setDuration(800).start();
 						return;
 					}
 					button_login.setTag(1);
