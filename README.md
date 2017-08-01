@@ -4,6 +4,9 @@
 I saw this cool login transition from [Anton Aheichanka](https://dribbble.com/shots/1945593-Login-Home-Screen)
  using the free to-do UI kit from [InVision](http://www.invisionapp.com/do)
  and wanted to create it in Android. 
+ 
+Without [ViewAnimationUtils.createCircularReveal](http://goo.gl/QjsYP2), [Shared Element Transition](http://guides.codepath.com/android/shared-element-activity-transition) or [Android Transition Framework](https://developer.android.com/training/transitions/overview.html). 
+Supported for API < 21
 
 ![alt text](https://thumbs.gfycat.com/ShockingSourJackrabbit-size_restricted.gif "My Animation")
 > [See HQ Animation](https://gfycat.com/ShockingSourJackrabbit)
