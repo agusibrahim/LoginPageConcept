@@ -8,7 +8,7 @@ I saw this cool login transition from [Anton Aheichanka](https://dribbble.com/sh
 Without [ViewAnimationUtils.createCircularReveal](http://goo.gl/QjsYP2), [Shared Element Transition](http://guides.codepath.com/android/shared-element-activity-transition) or [Android Transition Framework](https://developer.android.com/training/transitions/overview.html). 
 Supported for API < 21
 
-![alt text](https://thumbs.gfycat.com/ShockingSourJackrabbit-size_restricted.gif "My Animation")
+<img src="https://github.com/agusibrahim/LoginPageConcept/blob/master/Screenshot_20170806-203030.png?raw=true" width="300">
 > [See HQ Animation](https://gfycat.com/ShockingSourJackrabbit)
 
 ### Download APK
