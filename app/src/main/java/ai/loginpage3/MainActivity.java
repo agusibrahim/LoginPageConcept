@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity
 		pbar=(ProgressBar) findViewById(R.id.mainProgressBar1);
 		button_icon=findViewById(R.id.button_icon);
 		button_label=findViewById(R.id.button_label);
+
 		
 		dm=getResources().getDisplayMetrics();
 		button_login=findViewById(R.id.button_login);
