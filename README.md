@@ -9,6 +9,7 @@ Without [ViewAnimationUtils.createCircularReveal](http://goo.gl/QjsYP2), [Shared
 Supported for API < 21
 
 <img src="https://github.com/agusibrahim/LoginPageConcept/blob/master/Screenshot_20170806-203030.png?raw=true" width="300">
+
 > [See HQ Animation](https://gfycat.com/ShockingSourJackrabbit)
 
 ### Download APK
