@@ -15,6 +15,9 @@ Supported for API < 21
 ### Download APK
 https://github.com/agusibrahim/LoginPageConcept/releases/download/1/loginPageConcept-agusibrahim.apk
 
+### Donate
+https://paypal.me/agusibrahim
+
 ### Thnx to following cool library
 * https://github.com/flavioarfaria/KenBurnsView
 * https://github.com/MasayukiSuda/EasingInterpolator
